@@ -1,0 +1,835 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(./EN_NewPhyrexia_Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0px 0px 30px greenyellow, 0px 0px 10px white;
+  border: 3px solid greenyellow;
+  border-radius: 50px 150px;
+}
+
+.second {
+  background-image: url(./michael-katchan-krrik-final-small.jpg);
+  background-position: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 0px 0px 30px greenyellow, 0px 0px 10px white;
+  border: none;
+  border: 3px solid greenyellow;
+  border-radius: 50px 150px;
+}
+
+.third {
+  background-image: url(./krrikback.jpg);
+  background-position: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 0px 0px 30px greenyellow, 0px 0px 10px white;
+  border: none;
+  border: 3px solid greenyellow;
+  border-radius: 50px 150px;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 150px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Cinzel Decorative", cursive;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Cinzel Decorative", cursive;
+  text-decoration: underline;
+  text-align: center;
+  padding: 0px 50px;
+}
+.navigationbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navigationbox2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  list-style: none;
+  flex-direction: column;
+  border-radius: 10px 50px;
+  box-shadow: 0px 0px 10px black;
+  border: 3px solid greenyellow;
+  background-color: gray;
+  opacity: 0.8;
+  padding: 40px;
+  margin: 40px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 10px greenyellow, 0px 0px 3px black;
+  flex-direction: row;
+}
+
+.navigation:hover {
+  box-shadow: 0px 0px 50px greenyellow;
+  background-color: darkgray;
+  opacity: 1;
+  font-size: 22px;
+  text-shadow: 0px 0px 20px greenyellow, 0px 0px 3px black;
+}
+
+.navigation2 {
+  list-style: none;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  border: 3px solid greenyellow;
+  background-color: gray;
+  opacity: 0.8;
+  max-width: 200px;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 10px greenyellow, 0px 0px 3px black;
+  flex-direction: row;
+}
+
+.navigation2:hover {
+  box-shadow: 0px 0px 50px greenyellow;
+  border: 2px solid greenyellow;
+  background-color: darkgray;
+  opacity: 1;
+  
+  max-width: 200px;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px greenyellow, 0px 0px 3px black;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px 150px;
+  font-size: 16.5px;
+  box-shadow: 0px 0px 10px black;
+  border: 3px solid greenyellow;
+  background-color: gray;
+  background-image: url(./P.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  padding: 40px;
+  margin: 40px;
+}
+
+.history:hover {
+  opacity: 1;
+}
+
+.history2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px 100px;
+  font-size: 16.5px;
+  box-shadow: 0px 0px 10px black;
+  border: 3px solid greenyellow;
+  background-color: gray;
+  background-image: url(./P.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  max-width: 300px;
+  /* padding: 40px; */
+  margin: 40px;
+}
+
+.history2:hover {
+  opacity: 1;
+}
+
+.video {
+
+  border: 2px solid black;
+  border-radius: 50px;
+  scale: 100%;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+}
+
+.video:hover {
+  scale: 150%;
+  opacity: 1;
+}
+
+.pic {
+  border: 2px solid black;
+  border-radius: 50px;
+  scale: 90%;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+}
+
+.pic:hover {
+  scale: 100%;
+  opacity: 1;
+}
+
+#citizen {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 5px greenyellow, 0px 0px 20px white;
+  text-align: center;
+  list-style: none;
+}
+
+.references {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Cinzel Decorative", cursive;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 4px black;
+  color: azure;
+}
+
+.cardpics {
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+  margin: 120px 30px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: azure;
+  font-size: 50px;
+  text-decoration: underline;
+  text-shadow: 4px 4px 4px black;
+  border: 2px solid black;
+  height: 320px;
+  font-family: "Cinzel Decorative", cursive;
+  width: 320px;
+  box-shadow: 0px 0px 30px gray;
+  opacity: 80%;
+}
+
+.cardpics:hover {
+  border-radius: 20px;
+  margin: 30px;
+  padding: 30px;
+  font-size: 0px;
+  text-shadow: 4px 4px 4px gray;
+  height: 468px;
+  width: 320px;
+  box-shadow: 0px 0px 50px greenyellow;
+  opacity: 100%;
+}
+
+.cardpics2 {
+  justify-content: space-around;
+  align-items: center;
+  background-position: center;
+  border-radius: 50%;
+  margin: 50px 10px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: azure;
+  font-size: 15px;
+  text-decoration: underline;
+  text-shadow: 4px 4px 4px black;
+  border: 4px solid black;
+  height: 120px;
+  font-family: "Cinzel Decorative", cursive;
+  width: 120px;
+  box-shadow: 0px 0px 30px gray, 0px 0px 10px greenyellow;
+  opacity: 80%;
+}
+
+.cardpics2:hover {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 0px;
+  text-shadow: 4px 4px 4px gray;
+  border: 2px solid black;
+  height: 240px;
+  width: 160px;
+  box-shadow: 0px 0px 50px greenyellow;
+  opacity: 100%;
+}
+
+#showcase {
+  height: 224px;
+  width: 400px;
+  align-self: center;
+  opacity: 0.5;
+}
+
+#showcase:hover {
+  height: 224px;
+  width: 400px;
+  align-self: center;
+  opacity: 1;
+}
+
+/*Single  Cardpics */
+
+#kr {
+  background-image: url(./c19-18-k-rrik-son-of-yawgmoth.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#br {
+  background-image: url(./ulg-50-brink-of-madness.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#ev {
+  background-image: url(./ulg-52-eviscerator.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#no {
+  background-image: url(./ulg-56-no-mercy.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#os {
+  background-image: url(./ulg-57-ostracize.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#ph {
+  background-image: url(./jmp-263-phyrexian-broodlings.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#su {
+  background-image: url(./ulg-68-subversion.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#anrakyr {
+  background-image: url(./Anrakyr.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#illuminor {
+  background-image: url(./Illuminor.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#shard {
+  background-image: url(./Shard.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#dimir {
+  background-image: url(./dimir.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#carrion {
+  background-image: url(./carrion.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#braids {
+  background-image: url(./Braids.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#trazyn {
+  background-image: url(./thrazyn.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#soldevi {
+  background-image: url(./soldevi.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#cryptek {
+  background-image: url(./cryptek.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#villis {
+  background-image: url(./villis.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#Murderous {
+  background-image: url(./murderous.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#szarekh {
+  background-image: url(./szarekh.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#imotekh {
+  background-image: url(./imotekh.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#lychguard {
+  background-image: url(./lychguard.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#syndicate {
+  background-image: url(./syndicate.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#disciples {
+  background-image: url(./disciples.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#wurm {
+  background-image: url(./wurm.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#farmstead {
+  background-image: url(./farmstead.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#workshop {
+  background-image: url(./workshop.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#myr {
+  background-image: url(./myr.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#ballista {
+  background-image: url(./ballista.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#Inspector {
+  background-image: url(./inspector.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#dross {
+  background-image: url(./dross.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#arcbound {
+  background-image: url(./arcbound.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#liliana {
+  background-image: url(./liliana.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#ugin1 {
+  background-image: url(./ugin1.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#ugin2 {
+  background-image: url(./ugin2.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#grim {
+  background-image: url(./grim.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#dread {
+  background-image: url(./dread.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#their {
+  background-image: url(./their.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#mutilate {
+  background-image: url(./mutilate.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#victimize {
+  background-image: url(./victimize.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#diabolic {
+  background-image: url(./diabolic.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#stitch {
+  background-image: url(./stitch.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#alive {
+  background-image: url(./alive.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#feed {
+  background-image: url(./swarm.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#unearth {
+  background-image: url(./unearth.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#unrest {
+  background-image: url(./beacon.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#bio {
+  background-image: url(./bio.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#reclamation {
+  background-image: url(./reclamation.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#heaven {
+  background-image: url(./heaven.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#bolas {
+  background-image: url(./bolas.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#sensei {
+  background-image: url(./sensei.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#jet {
+  background-image: url(./jet.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#diamond {
+  background-image: url(./charcoal.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#thran {
+  background-image: url(./thran.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#chalice {
+  background-image: url(./chalice.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#mystic {
+  background-image: url(./mystic.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#animist {
+  background-image: url(./animist.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#hedron {
+  background-image: url(./hedron.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#stone {
+  background-image: url(./mind.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#cloak {
+  background-image: url(./cloak.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#sinew {
+  background-image: url(./sword.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#skullclamp {
+  background-image: url(./skullclamp.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#sol {
+  background-image: url(./sol.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#plating {
+  background-image: url(./cranial.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#boots {
+  background-image: url(./swiftfoot.webp);
+  background-size: cover;
+  background-position: cover;
+}
+
+#aether {
+  background-image: url(./aether.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#gilded {
+  background-image: url(./gilded.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#vessel {
+  background-image: url(./thought.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#altar {
+  background-image: url(./ashnod.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#signet {
+  background-image: url(./arcane.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#sceptre {
+  background-image: url(./sceptre.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#writhe {
+  background-image: url(./writhe.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#helm {
+  background-image: url(./helm.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#karn {
+  background-image: url(./bastion.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#darksteel {
+  background-image: url(./darksteel.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#desert {
+  background-image: url(./desert.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#stash {
+  background-image: url(./stash.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#bog {
+  background-image: url(./bojuka.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#tower {
+  background-image: url(./tower.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#castle {
+  background-image: url(./castle.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#tomb {
+  background-image: url(./tomb.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#vault {
+  background-image: url(./vault.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#mire {
+  background-image: url(./mire.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#myriad {
+  background-image: url(./myriad.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#moor {
+  background-image: url(./moor.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#cabal {
+  background-image: url(./cabal.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#grotto {
+  background-image: url(./grotto.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#fen {
+  background-image: url(./fen.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#rogue {
+  background-image: url(./rogue.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#swamp1 {
+  background-image: url(./swamp1.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#swamp2 {
+  background-image: url(./swamp2.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+#swamp3 {
+  background-image: url(./swamp3.jpg);
+  background-size: cover;
+  background-position: cover;
+}
